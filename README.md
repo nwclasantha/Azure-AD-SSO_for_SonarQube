@@ -1,17 +1,9 @@
-To set up SonarQube with Single Sign-On (SSO) using Azure Active Directory (Azure AD), you can follow these steps. This integration will enable users to sign into SonarQube using their Azure AD credentials.
-
-### Prerequisites
-1. **SonarQube** is installed and running (preferably SonarQube Enterprise Edition or Data Center Edition, as SSO might not be fully supported on the Community Edition).
-2. **Administrator access** to both SonarQube and Azure AD.
-3. **An Azure AD Premium P1 or P2 license**, as these licenses include SSO functionality.
-
-Here's a structured outline with **Introduction**, **Objectives**, **Security Requirements**, and **Conclusion** for setting up SonarQube with Azure AD SSO.
-
 
 ### **Introduction**
 
-As organizations adopt cloud-based solutions and centralized access management, integrating Single Sign-On (SSO) with tools like SonarQube is essential to simplify authentication, improve security, and enhance user experience. This guide provides detailed instructions on configuring SonarQube with Azure Active Directory (Azure AD) as an SSO provider. By integrating SonarQube with Azure AD, users can access the SonarQube platform using their existing Azure AD credentials, reducing the need for multiple passwords and enabling centralized control over user access.
+![P7vzCD7545RxiUvdrZeN1i](https://github.com/user-attachments/assets/9104908d-469b-43fb-af92-0c049f46451d)
 
+As organizations adopt cloud-based solutions and centralized access management, integrating Single Sign-On (SSO) with tools like SonarQube is essential to simplify authentication, improve security, and enhance user experience. This guide provides detailed instructions on configuring SonarQube with Azure Active Directory (Azure AD) as an SSO provider. By integrating SonarQube with Azure AD, users can access the SonarQube platform using their existing Azure AD credentials, reducing the need for multiple passwords and enabling centralized control over user access.
 
 ### **Objectives**
 
@@ -34,7 +26,10 @@ To securely implement SonarQube SSO with Azure AD, the following security requir
 
 Certainly! Here’s an even more detailed guide to setting up **SonarQube** with **Azure AD SSO**.
 
----
+### Prerequisites
+1. **SonarQube** is installed and running (preferably SonarQube Enterprise Edition or Data Center Edition, as SSO might not be fully supported on the Community Edition).
+2. **Administrator access** to both SonarQube and Azure AD.
+3. **An Azure AD Premium P1 or P2 license**, as these licenses include SSO functionality.
 
 ### Step 1: Register an Application in Azure AD
 
