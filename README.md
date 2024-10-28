@@ -1,0 +1,1 @@
+# Azure-AD-SSO_for_SonarQube
